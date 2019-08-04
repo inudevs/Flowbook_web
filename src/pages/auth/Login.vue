@@ -2,19 +2,18 @@
 import LoginBase from '@/components/LoginBase'
 
 export default {
-    name: 'login',
-    components: {
-        LoginBase
-    }
+  name: 'login',
+  components: {
+    LoginBase
+  }
 }
 </script>
 
 <template>
     <div class="page">
         <login-base />
-    </div>    
+    </div>
 </template>
-
 
 <style lang="scss" scoped>
 .page

@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'LoginBase'
+  name: 'LoginBase'
 }
 </script>
 
@@ -26,7 +26,7 @@ export default {
                 </a>
             </section>
         </div>
-    </div>    
+    </div>
 </template>
 
 <style lang="scss" scoped>

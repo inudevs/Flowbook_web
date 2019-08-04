@@ -1,24 +1,24 @@
 <script>
 export default {
-    name: 'DeleteBook',
-    data :
+  name: 'DeleteBook',
+  data:
         function () {
-            return {
-                books: [
-                    {
-                        title: '코스모스',
-                        author: '칼 세이건',
-                        img: 'https://misc.ridibooks.com/cover/786000077/xxlarge',
-                        owner: '장종우'
-                    },
-                    {
-                        title: '코스모스',
-                        author: '칼 세이건',
-                        img: 'https://misc.ridibooks.com/cover/786000077/xxlarge',
-                        owner: '윤영창'
-                    },
-                ]
-            }
+          return {
+            books: [
+              {
+                title: '코스모스',
+                author: '칼 세이건',
+                img: 'https://misc.ridibooks.com/cover/786000077/xxlarge',
+                owner: '장종우'
+              },
+              {
+                title: '코스모스',
+                author: '칼 세이건',
+                img: 'https://misc.ridibooks.com/cover/786000077/xxlarge',
+                owner: '윤영창'
+              }
+            ]
+          }
         }
 }
 </script>
@@ -39,7 +39,7 @@ export default {
                 {{ item.owner }}
             </div>
         </div>
-    </div>    
+    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -79,8 +79,8 @@ export default {
 
     }
 
-    &__owner { 
-    
+    &__owner {
+
     }
 
     &__delete {

@@ -1,46 +1,44 @@
 <script>
 export default {
-    name: 'GetReport',
-    data : 
+  name: 'GetReport',
+  data:
         function () {
-            return {
-                report: [
-                    {
-                        user: '1학년 3반 장종우',
-                        content: '밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요',
-                        status: '처리완료'
-                    },
-                    {
-                        user: '2학년 2반 ㅁㅁㅁ',
-                        content: '책의 겉표지가 너무 찢겨있어요 안에 야한게있어요',
-                        status: '처리완료'
-                    },
-                    {
-                        user: '1학년 3반 윤영창',
-                        content: '영창이 보러올사람은 11시 30분 까지 센트럴시티 터미널',
-                        status: '미처리'
-                    }
-                ]
-            }
+          return {
+            report: [
+              {
+                user: '1학년 3반 장종우',
+                content: '밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요밥이너무짜요 그리고 내가 너무 잘생겼고요 또 음 저 할말이없네요 여기까지할게요',
+                status: '처리완료'
+              },
+              {
+                user: '2학년 2반 ㅁㅁㅁ',
+                content: '책의 겉표지가 너무 찢겨있어요 안에 야한게있어요',
+                status: '처리완료'
+              },
+              {
+                user: '1학년 3반 윤영창',
+                content: '영창이 보러올사람은 11시 30분 까지 센트럴시티 터미널',
+                status: '미처리'
+              }
+            ]
+          }
         },
-    methods : {
-        division: function (item, idx) {
-            for(var i = 0; i < 2; i++) {
-                if(idx == i) {
-                    var i = item.status
+  methods: {
+    division: function (item, idx) {
+      for (var i = 0; i < 2; i++) {
+        if (idx == i) {
+          var i = item.status
 
-                    if( i == '처리완료')
-                    {
-                        return true;
-                    }
-                    else {
-                        return true;
-                    }
-                }
-            } 
+          if (i == '처리완료') {
+            return true
+          } else {
+            return true
+          }
         }
+      }
     }
-}  
+  }
+}
 
 </script>
 
@@ -59,7 +57,7 @@ export default {
                 {{ item.status }}
             </div>
         </div>
-    </div>    
+    </div>
 </template>
 
 <style lang="scss" scoped>

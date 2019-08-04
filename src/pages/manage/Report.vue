@@ -2,10 +2,10 @@
 import GetReport from '@/components/GetReport'
 
 export default {
-    name: 'Report',
-    components: {
-        GetReport
-    }    
+  name: 'Report',
+  components: {
+    GetReport
+  }
 }
 </script>
 

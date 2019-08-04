@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'InfoUser'
+  name: 'InfoUser'
 }
 </script>
 
@@ -14,7 +14,7 @@ export default {
                 로그아웃
             </div>
         </div>
-    </div>    
+    </div>
 </template>
 
 <style lang="scss" scoped>

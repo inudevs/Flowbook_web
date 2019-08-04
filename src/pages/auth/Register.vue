@@ -2,15 +2,15 @@
 import RegisterForm from '@/components/RegisterForm'
 
 export default {
-    name: 'Register',
-    components: {
-        RegisterForm
-    }
+  name: 'Register',
+  components: {
+    RegisterForm
+  }
 }
 </script>
 
 <template>
-    <register-form />   
+    <register-form />
 </template>
 
 <style lang="scss" scoped>

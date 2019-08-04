@@ -11,21 +11,21 @@ export default {
   },
   methods: {
     signUp: function (event) {
-      this.$http.post('/api/login/signUp', { //axios 사용
+      this.$http.post('/api/login/signUp', { // axios 사용
         user: this.user
       })
-      .then((response) => {
-        if (response.data.result === 0) {
-          alert('Error, please, try again')
-        }
-        if (response.data.result === 1) {
-          alert('Success')
-          this.$router.push('/login') // Login 페이지로 보내줌
-        }
-      })
-      .catch(function (error) {
-        alert('error')
-      })
+        .then((response) => {
+          if (response.data.result === 0) {
+            alert('Error, please, try again')
+          }
+          if (response.data.result === 1) {
+            alert('Success')
+            this.$router.push('/login') // Login 페이지로 보내줌
+          }
+        })
+        .catch(function (error) {
+          alert('error')
+        })
     }
   }
 }

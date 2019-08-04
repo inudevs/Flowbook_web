@@ -3,11 +3,11 @@ import InfoUser from '@/components/InfoUser'
 import MainFunc from '@/components/MainFunc'
 
 export default {
-    name: 'Index',
-    components: {
-        InfoUser,
-        MainFunc
-    }
+  name: 'Index',
+  components: {
+    InfoUser,
+    MainFunc
+  }
 }
 </script>
 
@@ -15,7 +15,7 @@ export default {
     <div class="page">
         <info-user />
         <main-func />
-    </div>    
+    </div>
 </template>
 
 <style lang="scss" scoped>

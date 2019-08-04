@@ -2,10 +2,10 @@
 import DeleteBook from '@/components/DeleteBook'
 
 export default {
-    name: 'Delete',
-    components: {
-        DeleteBook
-    }    
+  name: 'Delete',
+  components: {
+    DeleteBook
+  }
 }
 </script>
 
@@ -16,7 +16,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.page 
+.page
 {
     width: 100%;
     height: 100%;;

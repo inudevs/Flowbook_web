@@ -23,22 +23,12 @@ export default {
             ]
           }
         },
-  methods: {
-    division: function (item, idx) {
-      for (var i = 0; i < 2; i++) {
-        if (idx == i) {
-          var i = item.status
-
-          if (i == '처리완료') {
-            return true
-          } else {
-            return true
-          }
+    methods : {
+        isUndone: function (item) {
+            return item.status === '미처리';
         }
       }
-    }
   }
-}
 
 </script>
 
@@ -53,7 +43,7 @@ export default {
             <div class="report__content" >
                 {{ item.content }}
             </div>
-            <div class="report__finish" :class="{ 'non' : division(item, idx) }">
+            <div class="report__finish" :class="{ 'none' : isUndone(item) }">
                 {{ item.status }}
             </div>
         </div>
@@ -108,25 +98,25 @@ export default {
     &__finish {
         text-align: right;
         color: white;
-        background-color: #0F34DB;
+        background-color: #228be6;
         font-size: 20px;
         padding: 0.5em;
         margin-bottom: 2rem;
         border-radius: 1.5em 1.5em 1.5em 1.5em;
         cursor: pointer;
         margin-left: 35em;
-    }
 
-    &__finishnon {
-        text-align: right;
-        color: white;
-        background-color: hsl(0, 78%, 58%);
-        font-size: 20px;
-        padding: 0.5em;
-        margin-bottom: 2rem;
-        border-radius: 1.5em 1.5em 1.5em 1.5em;
-        cursor: pointer;
-        margin-left: 35em;
+        &.none {
+            text-align: right;
+            color: white;
+            background-color: #f03e3e;
+            font-size: 20px;
+            padding: 0.5em;
+            margin-bottom: 2rem;
+            border-radius: 1.5em 1.5em 1.5em 1.5em;
+            cursor: pointer;
+            margin-left: 35em;
+        }
     }
 }
 </style>

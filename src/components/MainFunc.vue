@@ -7,47 +7,27 @@ export default {
         menu: [
           {
               name: '학생관리',
-              href: '\"location.href=\'/report\';\"',
+              href: '/manage/student',
               icon: 'student.jpg'
           },
           {
               name: '교사추천도서',
-              href: '\"location.href=\'/report\';\"',
+              href: '/upload',
               icon: 'book.jpg'
           },
           {
               name: '도서관리',
-              href: '\"location.href=\'/report\';\"',
+              href: '/manage/book',
               icon: 'book.jpg'
           },
           {
               name: '신고접수',
-              href: '\"location.href=\'/report\';\"',
-              icon: 'book.jpg'
-          },
-          {
-              name: 'test',
-              href: '\"location.href=\'/report\';\"',
-              icon: 'book.jpg'
-          },
-          {
-              name: 'test2',
-              href: '\"location.href=\'/report\';\"',
+              href: '/report',
               icon: 'book.jpg'
           }
-            ]
-        }
-    },
-    methods : {
-      MovePage: function (idx) {
-        for(var i=0; i < 3; i++)
-        {
-          if(i == idx) {
-            return this.href
-          }
-        }
+        ]
       }
-    }
+  }
 }
 </script>
 

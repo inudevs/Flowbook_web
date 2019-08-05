@@ -6,8 +6,9 @@ import Router from 'vue-router'
 import Login from '@/pages/auth/Login.vue'
 import Register from '@/pages/auth/Register.vue'
 import Index from '@/pages/Index.vue'
-import Report from '@/pages/manage/Report.vue'
+import Report from '@/pages/Report.vue'
 import Delete from '@/pages/manage/Delete.vue'
+import Student from '@/pages/manage/Student.vue'
 
 Vue.use(Router)
 
@@ -54,7 +55,9 @@ export default new Router({
       component: Register
     },
     {
-      path: '/manage/student'
+      path: '/manage/student',
+      name: 'student',
+      component: Student
     },
     {
       path: '/manage/book',

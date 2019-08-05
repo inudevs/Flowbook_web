@@ -1,10 +1,12 @@
 <script>
 import DeleteBook from '@/components/DeleteBook'
+import CheckDelete from '@/components/CheckDelete'
 
 export default {
   name: 'Delete',
   components: {
-    DeleteBook
+    DeleteBook,
+    CheckDelete
   }
 }
 </script>
@@ -12,6 +14,7 @@ export default {
 <template>
     <div class="page">
         <delete-book />
+        <check-delete />
     </div>
 </template>
 

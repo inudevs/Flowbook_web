@@ -9,7 +9,7 @@ export default {
         <div class="login__frame">
             <section class="content">
                 <h1 class="content__title__detail">
-                    FlowBook
+                    <img src="@/assets/FlowBook로고.jpg" class="logo">
                 </h1>
                 <h2 class="content__title">
                     로그인
@@ -80,7 +80,7 @@ export default {
 .box {
     position: relative;
     margin: 0;
-    margin-top: 3em;
+    margin-top: 2em;
     text-align: center;
     widows: 100%;
     height: 100%;
@@ -134,5 +134,11 @@ input {
 
 a {
     text-decoration: none;
+}
+
+.logo {
+    width: 500px;
+    height: 70px;
+    margin-bottom: 0.5em;
 }
 </style>

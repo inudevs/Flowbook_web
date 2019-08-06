@@ -36,7 +36,7 @@ export default {
     <div class="register__frame">
         <section class="content">
           <h1 class="content__title__detail">
-            FlowBook
+            <img src="@/assets/FlowBook로고.jpg" class="logo">
           </h1>
           <h2 class="content__title">
             회원가입
@@ -46,7 +46,7 @@ export default {
             <input type="password" name="pw" placeholder="  비밀번호">
             <input type="text" name="name" placeholder="  이름">
             <input type="text" name="school_code" placeholder="  학교코드">
-            <input type="submit" name="Login" value="회원가입">
+            <input type="submit" name="Login" value="가입완료하기">
           </form>
           <a href="/auth/login">
             <h3 class="content__title">
@@ -162,5 +162,10 @@ input {
 
 a {
     text-decoration: none;
+}
+.logo {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 0.5em;
 }
 </style>

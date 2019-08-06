@@ -6,7 +6,7 @@ import Index from './pages/Index.vue'
 
 const Student = () => import(/* webpackChunkName: "student" */ './pages/Student.vue')
 const Upload = () => import(/* webpackChunkName: "upload" */ './pages/Upload.vue')
-const Search = () => import(/* webpackChunkName: "Search" */ './pages/Search.vue')
+const Search = () => import(/* webpackChunkName: "search" */ './pages/Search.vue')
 const Delete = () => import(/* webpackChunkName: "delete" */ './pages/Delete.vue')
 const Report = () => import(/* webpackChunkName: "report" */ './pages/Report.vue')
 const Login = () => import(/* webpackChunkName: "login" */ './pages/auth/Login.vue')
@@ -34,7 +34,7 @@ export default new Router({
     },
     {
       path: '/upload/search',
-      name: '/upload/search',
+      name: 'search',
       component: Search
     },
     {

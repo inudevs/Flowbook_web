@@ -28,17 +28,18 @@ export default {
     &__teacher {
         display: flex;
         width: 80%;
-        height: 50%;
         margin: auto;
         align-items: center;
         justify-content: center;
         text-align: center;
         box-shadow: 10px 15px 20px 10px rgb(231, 231, 231);
+        height: 4em;
         border-radius: 1.5em 1.5em 1.5em 1.5em;
     }
 
     &__show {
         width: 100%;
+        align-items: center;
         text-align: left;
         padding-left: 2em;
         color: #707070;

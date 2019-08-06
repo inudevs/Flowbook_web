@@ -10,10 +10,7 @@ const Upload_search = () => import(/* webpackChunkName: "upload_search" */ './pa
 const Delete = () => import(/* webpackChunkName: "delete" */ './pages/Delete.vue')
 const Report = () => import(/* webpackChunkName: "report" */ './pages/Report.vue')
 const Login = () => import(/* webpackChunkName: "login" */ './pages/auth/Login.vue')
-<<<<<<< HEAD
-=======
 const Register = () => import(/* webpackChunkName: "register" */ './pages/auth/Register.vue')
->>>>>>> 4dd57737def03f459c7f233df6bc7c053a9b4c7f
 
 Vue.use(Router)
 
@@ -47,23 +44,13 @@ export default new Router({
     },
     {
       path: '/report',
-<<<<<<< HEAD
       name: 'delete',
       component: Report
-=======
-      name: 'report',
-      component: Report
-    },
-    {
-      path: '/auth/login',
-      name: 'login',
-      component: Login
     },
     {
       path: '/auth/register',
       name: 'register',
       component: Register
->>>>>>> 4dd57737def03f459c7f233df6bc7c053a9b4c7f
     },
     {
       path: '/auth/login',

@@ -9,6 +9,7 @@ const Upload = () => import(/* webpackChunkName: "upload" */ './pages/Upload.vue
 const Upload_search = () => import(/* webpackChunkName: "upload_search" */ './pages/Upload_search.vue')
 const Delete = () => import(/* webpackChunkName: "delete" */ './pages/Delete.vue')
 const Report = () => import(/* webpackChunkName: "report" */ './pages/Report.vue')
+const Login = () => import(/* webpackChunkName: "login" */ './pages/auth/Login.vue')
 
 Vue.use(Router)
 
@@ -43,7 +44,12 @@ export default new Router({
     {
       path: '/report',
       name: 'delete',
-      component: Delete
+      component: Report
     },
+    {
+      path: '/auth/login',
+      name: 'login',
+      component: Login
+    }
   ]
 })

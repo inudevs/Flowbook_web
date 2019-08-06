@@ -35,12 +35,36 @@ export default {
   <div class="func">
     <div class="func__base">
       <div class="func__frame">
-        <li v-for="(item, idx) in menu" :key="idx" class="func__item" id="hover" onclick=MovePage(idx)>
+        <li class="func__item" id="hover">
           <span class="func__img">
-            <img :src="require(`../assets/${item.icon}`)" class="func__icon">
+            <img src="@/assets/student.jpg" class="func__icon">
           </span>
           <span class="func__text">
-            {{ item.name }}
+            학생관리
+          </span>
+        </li>
+        <li class="func__item" id="hover">
+          <span class="func__img">
+            <img src="@/assets/book.jpg" class="func__icon">
+          </span>
+          <span class="func__text">
+            교사추천도서
+          </span>
+        </li>
+        <li class="func__item" id="hover">
+          <span class="func__img">
+            <img src="@/assets/book.jpg" class="func__icon">
+          </span>
+          <span class="func__text">
+            도서관리
+          </span>
+        </li>
+        <li class="func__item" id="hover">
+          <span class="func__img">
+            <img src="@/assets/book.jpg" class="func__icon">
+          </span>
+          <span class="func__text">
+            신고접수
           </span>
         </li>
       </div>

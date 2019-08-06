@@ -17,6 +17,7 @@ export default {
                 <form class="box" action="/" method="url">
                     <input type="text" name="id" placeholder="  아이디">
                     <input type="password" name="pw" placeholder="  비밀번호">
+                    <input type="text" name="code" placeholder="  학교코드">
                     <input type="submit" name="Login" value="로그인">
                 </form>
                 <a href="/auth/register">
@@ -41,7 +42,6 @@ export default {
     &__frame {
         display: flex;
         width: 100%;
-        height: 50%;
         align-items: center;
         justify-content: center;
         box-shadow: 10px 15px 20px 10px rgb(231, 231, 231);
@@ -52,7 +52,6 @@ export default {
 .content {
     display: flex;
     width: 70%;
-    height: 70%;
     padding: 3em;
     order: 2;
 

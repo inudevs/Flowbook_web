@@ -18,7 +18,6 @@ export default {
 <style lang="scss" scoped>
 .page {
     width: 100%;
-    height: 200vh;
     margin: auto;
 }
 </style>

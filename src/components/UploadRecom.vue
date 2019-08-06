@@ -6,25 +6,65 @@ export default {
             return {
                 books: [
                     {
-                            title: '코스모스',
-                            author: '칼 세이건',
-                            img: 'cosmos.jpg',
-                        },
-                        {
-                            title: '코스모스',
-                            author: '칼 세이건',
-                            img: 'cosmos.jpg',
-                        },
-                        {
-                            title: '코스모스',
-                            author: '칼 세이건',
-                            img: 'cosmos.jpg',
-                        },
-                        {
-                            title: '모든 순간이 너였다.',
-                            author: '하태완 에세이',
-                            img: '모든.jpg'
-                        }
+                        title: '코스모스',
+                        author: '칼 세이건',
+                        img: 'cosmos.jpg',
+                    },
+                    {
+                        title: '모든 순간이 너였다.',
+                        author: '하태완 에세이',
+                        img: '모든.jpg'
+                    },
+                    {
+                        title: '코스모스',
+                        author: '칼 세이건',
+                        img: 'cosmos.jpg',
+                    },
+                    {
+                        title: '모든 순간이 너였다.',
+                        author: '하태완 에세이',
+                        img: '모든.jpg'
+                    },
+                    {
+                        title: '코스모스',
+                        author: '칼 세이건',
+                        img: 'cosmos.jpg',
+                    },
+                    {
+                        title: '모든 순간이 너였다.',
+                        author: '하태완 에세이',
+                        img: '모든.jpg'
+                    },
+                    {
+                        title: '코스모스',
+                        author: '칼 세이건',
+                        img: 'cosmos.jpg',
+                    },
+                    {
+                        title: '모든 순간이 너였다.',
+                        author: '하태완 에세이',
+                        img: '모든.jpg'
+                    },
+                    {
+                        title: '코스모스',
+                        author: '칼 세이건',
+                        img: 'cosmos.jpg',
+                    },
+                    {
+                        title: '모든 순간이 너였다.',
+                        author: '하태완 에세이',
+                        img: '모든.jpg'
+                    },
+                    {
+                        title: '코스모스',
+                        author: '칼 세이건',
+                        img: 'cosmos.jpg',
+                    },
+                    {
+                        title: '모든 순간이 너였다.',
+                        author: '하태완 에세이',
+                        img: '모든.jpg'
+                    }
                 ]
             }
         }
@@ -142,7 +182,7 @@ export default {
     position: fixed;
     width: 100px;
     height: 200px;
-    top: 10em;
+    top: 35em;
     float: right;
     align-self: flex-end;
 

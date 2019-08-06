@@ -7,9 +7,10 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    User: [
-      
-    ]
+    loginUser: null,
+    User: [{ Id: null, password: null, sc_code: null }],
+    isLogin: false,
+    isLoginError: false
   },
   mutations: {
     

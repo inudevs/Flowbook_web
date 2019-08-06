@@ -144,7 +144,7 @@ export default {
     height: 200px;
     top: 10em;
     float: right;
-    text-align: right;
+    align-self: flex-end;
 
     &__img {
         display: flex;

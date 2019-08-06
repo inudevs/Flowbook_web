@@ -76,7 +76,6 @@ export default {
 .func {
   margin: auto;
   width:100%;
-  height: 100%;
   
   &__base {
     width: 62em;
@@ -116,7 +115,6 @@ export default {
     display: flex;
     margin-top: 2.5em;
     width: 100%;
-    height: 15%;
     align-items: center;
     align-self: flex-end;
     justify-content: center;

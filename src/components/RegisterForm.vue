@@ -70,7 +70,6 @@ export default {
     &__frame {
         display: flex;
         width: 100%;
-        height: 70%;
         align-items: center;
         justify-content: center;
         box-shadow: 10px 15px 20px 10px rgb(231, 231, 231);
@@ -81,7 +80,6 @@ export default {
 .content {
     display: flex;
     width: 70%;
-    height: 70%;
     padding: 3em;
     order: 2;
 

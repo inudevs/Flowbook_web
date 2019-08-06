@@ -48,11 +48,6 @@ export default new Router({
       component: Report
     },
     {
-      path: '/auth/login',
-      name: 'login',
-      component: Login
-    },
-    {
       path: '/auth/register',
       name: 'register',
       component: Register

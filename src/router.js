@@ -1,15 +1,16 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import vuex from 'vuex'
-import axios from 'axios'
+import store from './store'
 
-import Login from '@/pages/auth/Login.vue'
-import Register from '@/pages/auth/Register.vue'
-import Index from '@/pages/Index.vue'
-import Report from '@/pages/Report.vue'
-import Delete from '@/pages/manage/Delete.vue'
-import Student from '@/pages/manage/Student.vue'
-import Upload from '@/pages/Upload.vue'
+//import Login from '@/pages/auth/Login.vue'
+//import Register from '@/pages/auth/Register.vue'
+//import Index from '@/pages/Index.vue'
+//import Report from '@/pages/Report.vue'
+//import Delete from '@/pages/manage/Delete.vue'
+//import Student from '@/pages/manage/Student.vue'
+//import Upload from '@/pages/Upload.vue'
+
+const 
 
 Vue.use(Router)
 

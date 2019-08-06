@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import store from '@/vuex/store'
-// import axios from 'axios'
+import vuex from 'vuex'
+import axios from 'axios'
 
 import Login from '@/pages/auth/Login.vue'
 import Register from '@/pages/auth/Register.vue'

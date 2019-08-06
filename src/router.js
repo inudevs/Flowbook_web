@@ -9,32 +9,9 @@ import Index from '@/pages/Index.vue'
 import Report from '@/pages/Report.vue'
 import Delete from '@/pages/manage/Delete.vue'
 import Student from '@/pages/manage/Student.vue'
+import Upload from '@/pages/Upload.vue'
 
 Vue.use(Router)
-
-/*
-const requireAuth = (to, from, next) => {
-  if (localStorage.userInfo) {
-    axios.defaults.headers.common['authorization'] = localStorage.userToken
-    store.commit('setUserInfo', JSON.parse(localStorage.userInfo))
-    store.commit('setIsAuth', true)
-    return next()
-  }
-
-  if (store.getters.userInfo) return next()
-  next('/auth/login')
-}
-
-const forbidAuth = (to, from, next) => {
-  if (localStorage.userInfo) {
-    axios.defaults.headers.common['authorization'] = localStorage.userToken
-    store.commit('setUserInfo', JSON.parse(localStorage.userInfo))
-    store.commit('setIsAuth', true)
-  }
-  if (store.getters.getIsAuth) return next('/')
-  next()
-}
-*/
 
 export default new Router({
   mode: 'history',
@@ -68,6 +45,11 @@ export default new Router({
       path: '/report',
       name: 'report',
       component: Report
+    },
+    {
+      path: '/upload',
+      name: 'upload',
+      component: Upload
     }
   ]
 })

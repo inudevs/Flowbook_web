@@ -118,7 +118,7 @@ export default {
 
     &__frame {
         display: flex;
-        width: 50%;
+        width: 60%;
         margin: auto;
         align-items: center;
         justify-content: center;

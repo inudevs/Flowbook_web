@@ -61,7 +61,7 @@ export default {
         </li>
         <li class="func__item" id="hover">
           <span class="func__img">
-            <img src="@/assets/book.jpg" class="func__icon">
+            <img src="@/assets/신고.jpg" class="func__icon">
           </span>
           <span class="func__text">
             신고접수

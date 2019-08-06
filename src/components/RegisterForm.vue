@@ -39,7 +39,7 @@ export default {
             <img src="@/assets/FlowBook로고.jpg" class="logo">
           </h1>
           <h2 class="content__title">
-            회원가입
+            학교생성
           </h2>
           <form class="box" action="/auth/login">
             <input type="text" name="id" placeholder="  아이디">

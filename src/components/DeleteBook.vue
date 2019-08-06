@@ -77,12 +77,11 @@ export default {
     margin: auto;
     width: 70%;
     height: auto;
-    padding-top: 3em;
     flex-direction: column;
 
     &__frame {
         display: flex;
-        width: 60%;
+        width: 70%;
         margin: auto;
         align-items: center;
         justify-content: center;

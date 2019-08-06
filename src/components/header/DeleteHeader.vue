@@ -16,7 +16,7 @@ export default {
                 <img src="@/assets/book_purple.jpg" class="img">
             </div>
             <div class="header__title__content">
-                교사추천도서 업로드
+                도서관리
             </div>
         </div>
     </div>
@@ -58,13 +58,13 @@ export default {
 
     &__title {
         display: flex;
-        padding-left: 13em; 
+        padding-left: 18em; 
         width: 70%;
 
         &__content {
             display: flex;
             color: #9896F1;
-            font-size: 30px;
+            font-size: 40px;
             align-items: center;
         }
     }
@@ -75,7 +75,7 @@ export default {
 .help {
     display: flex;
     align-items: center;
-    width: 48%;
+    width: 49%;
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;

@@ -16,7 +16,7 @@ export default {
                 </h2>
                 <form class="box" action="/" method="url">
                     <input type="text" name="id" placeholder="  아이디">
-                    <input type="password" name="pw" placeholder="  비밀번호">
+                    <input type="password" name="password" placeholder="  비밀번호">
                     <input type="text" name="code" placeholder="  학교코드">
                     <input type="submit" name="Login" value="로그인">
                 </form>

@@ -44,13 +44,15 @@ export default {
           <form class="box" action="/auth/login" emthod="post">
             <input type="text" name="name" placeholder="  학교명">
             <input type="text" name="school_code" placeholder="  학교이메일">
-            <input type="text" name="id" placeholder="  아이디">
-            <input type="password" name="pw" placeholder="  비밀번호">
+            <div class="gap"></div>
+            <input type="text" name="id" placeholder="  관리자 아이디">
+            <input type="password" name="pw" placeholder="  관리자 비밀번호">
+            <input type="text" name="admin_id" placeholder="  관리자 이름">
             <input type="submit" name="Login" value="가입완료하기">
           </form>
           <a href="/auth/login">
             <h3 class="content__title">
-              <div class="content_title__detail" id="back_to_login">login창으로</div>
+              <div class="content_title__detail" id="back_to_login">LOGIN창으로</div>
             </h3>
           </a>
         </section>
@@ -167,5 +169,9 @@ a {
     width: 300px;
     height: 40px;
     margin-bottom: 0.5em;
+}
+.gap
+{
+  margin: 3em;
 }
 </style>

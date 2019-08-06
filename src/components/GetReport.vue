@@ -92,7 +92,7 @@ export default {
   &__finish {
     text-align: right;
     color: white;
-    background-color: #228be6;
+    background-color: #4945E7;
     font-size: 20px;
     padding: 0.5em;
     margin-bottom: 2rem;

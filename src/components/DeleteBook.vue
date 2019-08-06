@@ -22,6 +22,12 @@ export default {
                 author: '칼 세이건',
                 img: 'cosmos.jpg',
                 owner: '문형일'
+              },
+              {
+                title: '코스모스',
+                author: '칼 세이건',
+                img: 'cosmos.jpg',
+                owner: '윤영창'
               }
             ]
           }

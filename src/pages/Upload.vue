@@ -1,16 +1,20 @@
 <script>
 import UploadRecom from '@/components/UploadRecom'
+import UploadHeader from '@/components/header/UploadHeader'
+
 
 export default {
     name: 'Upload',
     components: {
-        UploadRecom
+        UploadRecom,
+        UploadHeader
     }
 }
 </script>
 
 <template>
     <div class="page">
+        <upload-header />
         <upload-recom />
     </div>
 </template>

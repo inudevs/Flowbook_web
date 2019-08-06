@@ -113,7 +113,6 @@ export default {
     margin: auto;
     width: 80%;
     height: auto;
-    padding-top: 3em;
     flex-direction: column;
     
 

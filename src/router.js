@@ -2,15 +2,13 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import store from './store'
 
-//import Login from '@/pages/auth/Login.vue'
-//import Register from '@/pages/auth/Register.vue'
-//import Index from '@/pages/Index.vue'
-//import Report from '@/pages/Report.vue'
-//import Delete from '@/pages/manage/Delete.vue'
-//import Student from '@/pages/manage/Student.vue'
-//import Upload from '@/pages/Upload.vue'
+import Index from './pages/Index.vue'
 
-const 
+const Student = () => import(/* webpackChunkName: "student" */ './pages/Student.vue')
+const Upload = () => import(/* webpackChunkName: "upload" */ './pages/Upload.vue')
+const Upload_search = () => import(/* webpackChunkName: "upload_search" */ './pages/Upload_search.vue')
+const Delete = () => import(/* webpackChunkName: "delete" */ './pages/Delete.vue')
+const Report = () => import(/* webpackChunkName: "report" */ './pages/Report.vue')
 
 Vue.use(Router)
 
@@ -23,34 +21,29 @@ export default new Router({
       component: Index
     },
     {
-      path: '/auth/login',
-      name: 'login',
-      component: Login
-    },
-    {
-      path: '/auth/register',
-      name: 'register',
-      component: Register
-    },
-    {
-      path: '/manage/student',
+      path: '/student',
       name: 'student',
       component: Student
-    },
-    {
-      path: '/manage/book',
-      name: 'delete',
-      component: Delete
-    },
-    {
-      path: '/report',
-      name: 'report',
-      component: Report
     },
     {
       path: '/upload',
       name: 'upload',
       component: Upload
-    }
+    },
+    {
+      path: '/upload_search',
+      name: 'upload_search',
+      component: Upload_search
+    },
+    {
+      path: '/delete',
+      name: 'delete',
+      component: Delete
+    },
+    {
+      path: '/report',
+      name: 'delete',
+      component: Delete
+    },
   ]
 })

@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'UploadHeader'    
+    name: 'DeleteHeader'    
 }
 </script>
 

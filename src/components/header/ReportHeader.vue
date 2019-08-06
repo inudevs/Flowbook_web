@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'UploadHeader'    
+    name: 'ReportHeader'    
 }
 </script>
 
@@ -13,10 +13,10 @@ export default {
         
         <div class="header__title">
             <div class="etc">
-                <img src="@/assets/book_purple.jpg" class="img">
+                <img src="@/assets/신고_purple.jpg" class="img">
             </div>
             <div class="header__title__content">
-                교사추천도서 업로드
+                신고접수
             </div>
         </div>
     </div>
@@ -58,13 +58,13 @@ export default {
 
     &__title {
         display: flex;
-        padding-left: 13em; 
+        padding-left: 16em; 
         width: 70%;
 
         &__content {
             display: flex;
             color: #9896F1;
-            font-size: 35px;
+            font-size: 40px;
             align-items: center;
         }
     }
@@ -75,7 +75,7 @@ export default {
 .help {
     display: flex;
     align-items: center;
-    width: 48%;
+    width: 49%;
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;

@@ -10,7 +10,7 @@ const Search = () => import(/* webpackChunkName: "search" */ './pages/Search.vue
 const Delete = () => import(/* webpackChunkName: "delete" */ './pages/Delete.vue')
 const Report = () => import(/* webpackChunkName: "report" */ './pages/Report.vue')
 const Login = () => import(/* webpackChunkName: "login" */ './pages/auth/Login.vue')
-const Register = () => import(/* webpackChunkName: "register" */ './pages/auth/Register.vue')
+const Create = () => import(/* webpackChunkName: "create" */ './pages/auth/Create.vue')
 
 Vue.use(Router)
 
@@ -48,9 +48,9 @@ export default new Router({
       component: Report
     },
     {
-      path: '/auth/register',
-      name: 'register',
-      component: Register
+      path: '/auth/create',
+      name: 'create',
+      component: Create
     },
     {
       path: '/auth/login',

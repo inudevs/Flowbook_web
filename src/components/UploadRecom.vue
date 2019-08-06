@@ -158,6 +158,7 @@ export default {
       flex-direction: row;
       padding-left: 0.5em;
       font-size: 25px;
+      margin-bottom: 0.5em;
     }
 
     &__author {

@@ -1,11 +1,11 @@
 <script>
 export default {
-    name: 'UploadHeader'    
+    name: 'StudentHeader'    
 }
 </script>
 
 <template>
-<div>
+<div style="margin-top: 4em;">
     <div class="header">
         <div class="header__logo" onclick="location.href='/';">
             <img src="@/assets/FlowBook로고.jpg" class="header__logo__img">
@@ -13,10 +13,10 @@ export default {
         
         <div class="header__title">
             <div class="etc">
-                <img src="@/assets/book_purple.jpg" class="img">
+                <img src="@/assets/people_purple.jpg" class="img">
             </div>
             <div class="header__title__content">
-                교사추천도서 업로드
+                학생관리
             </div>
         </div>
     </div>
@@ -58,13 +58,13 @@ export default {
 
     &__title {
         display: flex;
-        padding-left: 13em; 
+        padding-left: 18em; 
         width: 70%;
 
         &__content {
             display: flex;
             color: #9896F1;
-            font-size: 35px;
+            font-size: 40px;
             align-items: center;
         }
     }
@@ -75,7 +75,7 @@ export default {
 .help {
     display: flex;
     align-items: center;
-    width: 48%;
+    width: 52%;
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -101,8 +101,8 @@ export default {
     }
 }
 .img {
-    width: 40px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
 }
 .etc {
     display: flex;

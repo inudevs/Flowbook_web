@@ -14,17 +14,20 @@ export default {
                 <h2 class="content__title">
                     로그인
                 </h2>
-                <form class="box" action="/" method="url">
+                <form class="box" action="/" method="post">
                     <input type="text" name="id" placeholder="  아이디">
                     <input type="password" name="password" placeholder="  비밀번호">
                     <input type="text" name="code" placeholder="  학교코드">
                     <input type="submit" name="Login" value="로그인">
                 </form>
-                <a href="/auth/register">
+                <a href="/auth/create">
                     <h3 class="content__title">
-                        <div class="content__title__detail" id="register">회원가입</div>
+                        <div class="content__title__detail" id="register">또는</div>
                     </h3>
                 </a>
+                <div class="box">
+                    <button type="button" onclick="location.href='/auth/create'">학교가입하기</button>
+                </div>
             </section>
         </div>
     </div>
@@ -69,9 +72,7 @@ export default {
             width: 100%;
             justify-content: center;
             margin: 0;
-            background: -webkit-linear-gradient(  #4D66D4,#C299EA );
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: black;
 
         }
     }
@@ -100,21 +101,25 @@ export default {
     cursor:text;
 }
 
-.box input[type = "submit"] {
+.box input[type = "submit"], button {
     border: 0;
     display: block;
     width: 35%;
     height: 3em;
-    margin: 20px auto;
+    margin: auto;
     background: linear-gradient( to bottom, #4D66D4,#C299EA );
     font-size: 2em;
-    margin-top: 3em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     border-radius: 5em 5em 5em 5em;
     color: white;
     cursor:pointer;
     padding: 0;
     font-size: 15px;
+}
+
+button {
+    margin-top: 0;
 }
 
 #register {
@@ -137,8 +142,8 @@ a {
 }
 
 .logo {
-    width: 500px;
-    height: 70px;
+    width: 400px;
+    height: 60px;
     margin-bottom: 0.5em;
 }
 </style>

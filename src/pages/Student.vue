@@ -1,17 +1,20 @@
 <script>
-import AddStudent from '@/components/AddStudent'
+import StudentHeader from '@/components/header/StudentHeader'
+import ManageStudent from '@/components/ManageStudent'
 
 export default {
     name: 'Student',
     components: {
-        AddStudent
+        StudentHeader,
+        ManageStudent
     }
 }
 </script>
     
 <template>
     <div class="page">
-        <add-student />
+        <student-header />
+        <manage-student />
     </div>
 </template>
 

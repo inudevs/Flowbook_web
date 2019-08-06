@@ -54,8 +54,7 @@ export default {
   margin: auto;
   width: 70%;
   height: auto;
-  padding-top: 3em;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
   flex-direction: column;
 
   &__frame {
